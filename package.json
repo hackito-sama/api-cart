@@ -1,0 +1,33 @@
+{
+  "name": "api-cart",
+  "version": "1.0.0",
+  "description": "api to buy products on a page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel src --out-dir dist",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackito-sama/api-cart.git"
+  },
+  "author": "Jacob Cheuquiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackito-sama/api-cart/issues"
+  },
+  "homepage": "https://github.com/hackito-sama/api-cart#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
